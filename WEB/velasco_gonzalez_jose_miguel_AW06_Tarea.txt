@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-10">
+  <meta name="author" content="jose miguel velasco gonzalez">
+  <meta name="description" content="Sitio web sobre gestores de contenido">
+  <meta name="keywords" content="CMS, Gestor de contenidos, Joomla, Wordpress">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GESTORES DE CONTENIDO</title>
+  <link rel="stylesheet" href="estilos.css">
+  <script src="scripts.js"></script>
+</head>velasco_gonzalez_jose_miguel_AW06_Tarea
+<body>
+  <header>
+    <h1>GESTORES DE CONTENIDO</h1>
+    <hr>
+  </header>
+  <nav>
+    <ul>
+      <li><a href="#">Inicio</a></li>
+      <li><a href="#">Joomla</a></li>
+      <li><a href="#">Wordpress</a></li>
+      <li><a href="#">Drupal</a></li>
+      <li><a href="#">Magento</a></li>
+      <li><a href="#">Wix</a></li>
+      <li><a href="#">Moodle</a></li>
+      <li><a href="#">Classroom</a></li>
+      <li><a href="#">Prestashop</a></li>
+      <li><a href="#">Shopify</a></li>
+    </ul>
+  </nav>
+  <main>
+    <article>
+      <h2> Que es un gestor de contenido?</h2>
+      <p>Un <strong>gestor de contenido (CMS, por sus siglas en ingles)</strong> es una aplicacion que permite crear, editar, publicar y administrar contenido en la web de manera sencilla y eficiente.</p>
+      <p>Los CMS se utilizan principalmente para la creacion y gestion de sitios web, blogs y tiendas en linea, entre otros. Algunos de los CMS mas populares son:</p>
+      <ul>
+        <li> CMS de blog: 
+          <ol>
+            <li>Wordpress</li>
+            <li>Blogger</li>
+          </ol>
+        </li>
+        <li>CMS de comercio electronico: 
+          <ol>
+            <li>Prestashop</li>
+            <li>Magento</li>
+          </ol>
+        </li>
+        <li>CMS de sitio web: 
+          <ol>
+            <li>Joomla</li>
+            <li>Drupal</li>
+          </ol>
+        </li>
+      </ul>
+      <p>Los CMS permiten crear sitios web de manera rapida y sencilla, sin necesidad de tener conocimientos de programacion ni diseno web. Ademas, los CMS ofrecen una amplia variedad de plantillas y plugins para personalizar el sitio web según las necesidades del usuario.</p>
+    </article>
+    <aside>
+      <table>
+        <caption>Comparativa de CMS</caption>
+        <tr>
+          <th></th>
+          <th>Joomla</th>
+          <th>Wordpress</th>
+          <th>Drupal</th>
+          <th>Magento</th>
+        </tr>
+        <tr>
+          <th>Popularidad</th>
+          <td>Alta</td>
+          <td>Muy alta</td>
+          <td>Media</td>
+          <td>Media</td>
+        </tr>
+        <tr>
+          <th>Facilidad de uso</th>
+          <td>Media</td>
+          <td>Alta</td>
+          <td>Media</td>
+          <td>Alta</td>
+        </tr>
+            <th>Flexibilidad</th>
+            <td>Alta</td>
+            <td>Media</td>
+            <td>Alta</td>
+            <td>Baja</td>
+          </tr>
+          <tr>
+            <th>Comunidad</th>
+            <td>Grande</td>
+            <td>Enorme</td>
+            <td>Grande</td>
+            <td>Mediana</td>
+          </tr>
+          <tr>
+            <th>Plugins/Extensiones</th>
+            <td>5000+</td>
+            <td>55000+</td>
+            <td>4000+</td>
+            <td>5000+</td>
+          </tr>
+          <tr>
+            <th>Plantillas</th>
+            <td>1000+</td>
+            <td>5000+</td>
+            <td>2000+</td>
+            <td>1000+</td>
+          </tr>
+        </table>
+        <img src="joomla.png" alt="Joomla" width="150" height="150">
+        <img src="wordpress.png" alt="Wordpress" width="150" height="150">
+        <img src="drupal.png" alt="Drupal" width="150" height="150">
+        <img src="magento.png" alt="Magento" width="150" height="150">
+        <img src="wix.PNG" alt="Wix" width="150" height="150">
+        <img src="moodle.PNG" alt="Moodle" width="150" height="150">
+        <img src="classroom.PNG" alt="Classroom" width="150" height="150">
+        <img src="prestashop.PNG" alt="Prestashop" width="150" height="150">
+        <img src="shopify.PNG" alt="Shopify" width="150" height="150">
+      </aside>
+    </main>
+    <footer>
+      <p>Derechos de autor &copy; 2023. Todos los derechos reservados.</p>
+    </footer>
+  </body>
+  </html>
+  <style>
+    body {
+        font-family: Arial, sans-serif;
+        text-align: center;
+        margin-top: 50px;
+    }
+
+    #vertical-container {
+        margin-bottom: 20px;
+    }
+
+    #vertical-list {
+        list-style-type: none;
+        padding: 0;
+    }
+
+    #vertical-list li {
+        margin-bottom: 10px;
+    }
+
+    #horizontal-container {
+        display: flex;
+        justify-content: center;
+    }
+
+    #horizontal-list {
+        list-style-type: none;
+        padding: 0;
+        display: flex;
+    }
+
+    #horizontal-list li {
+        margin-right: 10px;
+    }
+
+    #icon-text {
+        margin-top: 20px;
+    }
+
+    .icon {
+        display: none;
+        max-width: 100px;
+        max-height: 100px;
+    }
+</style>
+<script>
+    function mostrarIcono(nombre) {
+        var iconText = document.getElementById("icon-text");
+        iconText.innerHTML = " Hola Jose Miguel! Quieres ver el icono de " + nombre + "?";
+        var icons = document.getElementsByClassName("icon");
+        for (var i = 0; i < icons.length; i++) {
+            icons[i].style.display = "none";
+        }
+        var icon = document.getElementById(nombre);
+        icon.style.display = "block";
+    }
+</script>
+</head>
+<body>
+<h1>Mi Pagina Web</h1>
+<div id="vertical-container">
+    <ul id="vertical-list">
+        <li><button onclick="mostrarIcono('wix')">Wix</button></li>
+        <li><button onclick="mostrarIcono('joomla')">Joomla</button></li>
+        <li><button onclick="mostrarIcono('drupal')">Drupal</button></li>
+        <li><button onclick="mostrarIcono('moodle')">Moodle</button></li>
+        <li><button onclick="mostrarIcono('classroom')">Classroom</button></li>
+        <li><button onclick="mostrarIcono('wordpress')">WordPress</button></li>
+        <li><button onclick="mostrarIcono('prestashop')">PrestaShop</button></li>
+        <li><button onclick="mostrarIcono('shopify')">Shopify</button></li>
+    </ul>
+    <p id="icon-text"></p>
+</div>
+<div id="horizontal-container">
+    <ul id="horizontal-list">
+        <li><img id="wix" class="icon" src="wix.png" alt="Wix"></li>
+        <li><img id="joomla" class="icon" src="joomla.png" alt="Joomla"></li>
+        <li><img id="drupal" class="icon" src="drupal.png" alt="Drupal"></li>
+        <li><img id="moodle" class="icon" src="moodle.png" alt="Moodle"></li>
+        <li><img id="classroom" class="icon" src="classroom.png" alt="Classroom"></li>
+        <li><img id="wordpress" class="icon" src="wordpress.png" alt="WordPress"></li>
+        <li><img id="prestashop" class="icon" src="prestashop.png" alt="PrestaShop"></li>
+        <li><img id="shopify" class="icon" src="shopify.png" alt="Shopify"></li>
+    </ul>
+    </div>
+</body>
+</html>
+

@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>velasco_INICIO_AW06</title>
+  <link rel="stylesheet" href="styles.css">
+  <meta http-equiv="refresh" content="3; file:///C:/Users/jmvel/OneDrive/Escritorio/AW06jmvg/velasco_gonzalez_jose_miguel_AW06_Tarea%20(2).html">
+  <style>
+    body {
+      background-color: #000000; /* Color de fondo oscuro */
+      color: #ffffff; /* Color de letra claro */
+      font-size: 24px; /* Tamaño de letra grande */
+    }
+
+    h1, h2, p, ul, li, label, input, textarea, form {
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      padding: 20px;
+      background-color: #000000; /* Color de fondo oscuro para el encabezado */
+    }
+
+    h1 {
+      font-size: 48px; /* Tamaño de letra grande para el título */
+      color: #ffffff; /* Color de letra claro para el título */
+    }
+
+    nav ul {
+      list-style-type: none;
+      display: flex;
+    }
+
+    nav li {
+      margin-right: 10px;
+    }
+
+    nav a {
+      color: #ffffff; /* Color de letra claro para los enlaces */
+      text-decoration: none;
+    }
+
+    main {
+      padding: 20px;
+    }
+
+    h2 {
+      font-size: 36px; /* Tamaño de letra grande para los títulos de sección */
+      margin-bottom: 10px;
+    }
+
+    p {
+      margin-bottom: 20px;
+    }
+
+    ul {
+      margin-bottom: 20px;
+    }
+
+    footer {
+      padding: 20px;
+      background-color: #000000; /* Color de fondo oscuro para el pie de página */
+    }
+
+    footer p {
+      font-size: 18px; /* Tamaño de letra para el pie de página */
+      color: #ffffff; /* Color de letra claro para el pie de página */
+      margin: 0;
+      padding: 0;
+    }
+  </style><!-- Estilos CSS y meta etiquetas aquí -->
+</head>
+<body>
+    <style>
+        body {
+          background-color: #000000; /* Color de fondo oscuro */
+          color: #ffffff; /* Color de letra claro */
+          font-size: 24px; /* Tamaño de letra grande */
+        }
+    
+        h1, h2, p, ul, li, label, input, textarea, form {
+          margin: 0;
+          padding: 0;
+        }
+    
+        header {
+          padding: 20px;
+          background-color: #000000; /* Color de fondo oscuro para el encabezado */
+        }
+    
+        h1 {
+          font-size: 48px; /* Tamaño de letra grande para el título */
+          color: #ffffff; /* Color de letra claro para el título */
+        }
+    
+        nav ul {
+          list-style-type: none;
+          display: flex;
+        }
+    
+        nav li {
+          margin-right: 10px;
+        }
+    
+        nav a {
+          color: #ffffff; /* Color de letra claro para los enlaces */
+          text-decoration: none;
+        }
+    
+        main {
+          padding: 20px;
+        }
+    
+        h2 {
+          font-size: 36px; /* Tamaño de letra grande para los títulos de sección */
+          margin-bottom: 10px;
+        }
+    
+        p {
+          margin-bottom: 20px;
+        }
+    
+        ul {
+          margin-bottom: 20px;
+        }
+    
+        footer {
+          padding: 20px;
+          background-color: #000000; /* Color de fondo oscuro para el pie de página */
+        }
+    
+        footer p {
+          font-size: 18px; /* Tamaño de letra para el pie de página */
+          color: #ffffff; /* Color de letra claro para el pie de página */
+          margin: 0;
+          padding: 0;
+        }
+      </style>  
+  <!-- Contenido de la página principal aquí -->
+</body>
+</html>

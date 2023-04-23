@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Mi Página Web</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body style="background-color: #F5F5F5;">
+  <header style="background-color: #ECEFF1; padding: 20px;">
+    <h1 style="color: #333333; font-size: 24px; font-family: Arial, sans-serif; margin: 0;">Encabezado de la Página</h1>
+  </header>
+  <nav style="background-color: #B0BEC5; padding: 10px;">
+    <ul style="list-style-type: square;">
+      <li>Elemento de Lista 1</li>
+      <li>Elemento de Lista 2</li>
+      <li>Elemento de Lista 3</li>
+    </ul>
+  </nav>
+  <section style="background-color: #CFD8DC; padding: 20px;">
+    <h2 style="color: #333333; font-size: 20px; font-family: Arial, sans-serif; margin: 0;">Sección Principal</h2>
+    <p style="color: #222222; font-size: 16px; font-family: 'Times New Roman', serif; margin-top: 10px;">Texto de la página principal. Este es un ejemplo de un párrafo de texto. La línea que separa el encabezado y el texto ocupa el 80% del ancho del contenedor, tiene un color oscuro y una altura de 3px.</p>
+  </section>
+  <aside style="background-color: #90A4AE; padding: 10px;">
+    <h3 style="color: #333333; font-size: 18px; font-family: Arial, sans-serif; margin: 0;">Barra lateral</h3>
+    <ul style="list-style-type: lower-roman;">
+      <li>Elemento de Lista 1</li>
+      <li>Elemento de Lista 2</li>
+      <li>Elemento de Lista 3</li>
+    </ul>
+  </aside>
+  <footer style="background-color: #78909C; padding: 20px;">
+    <p style="color: #333333; font-size: 14px; font-family: Arial, sans-serif; margin: 0;">Pie de Página</p>
+  </footer>
+</body>
+</html>

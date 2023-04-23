@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>velasco_INICIO_AW06</title>
+  <link rel="stylesheet" href="styles.css">
+  <meta http-equiv="refresh" content="3; file:///C:/Users/jmvel/OneDrive/Escritorio/AW06jmvg/velasco_gonzalez_jose_miguel_AW06_Tarea%20(2).html">
+  <style>
+    body {
+      background-color: #000000; /* Color de fondo oscuro */
+      color: #ffffff; /* Color de letra claro */
+      font-size: 24px; /* Tamaño de letra grande */
+    }
+
+    h1, h2, p, ul, li, label, input, textarea, form {
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      padding: 20px;
+      background-color: #000000; /* Color de fondo oscuro para el encabezado */
+    }
+
+    h1 {
+      font-size: 48px; /* Tamaño de letra grande para el título */
+      color: #ffffff; /* Color de letra claro para el título */
+    }
+
+    nav ul {
+      list-style-type: none;
+      display: flex;
+    }
+
+    nav li {
+      margin-right: 10px;
+    }
+
+    nav a {
+      color: #ffffff; /* Color de letra claro para los enlaces */
+      text-decoration: none;
+    }
+
+    main {
+      padding: 20px;
+    }
+
+    h2 {
+      font-size: 36px; /* Tamaño de letra grande para los títulos de sección */
+      margin-bottom: 10px;
+    }
+
+    p {
+      margin-bottom: 20px;
+    }
+
+    ul {
+      margin-bottom: 20px;
+    }
+
+    footer {
+      padding: 20px;
+      background-color: #000000; /* Color de fondo oscuro para el pie de página */
+    }
+
+    footer p {
+      font-size: 18px; /* Tamaño de letra para el pie de página */
+      color: #ffffff; /* Color de letra claro para el pie de página */
+      margin: 0;
+      padding: 0;
+    }
+  </style>
+  <header>
+    <h1>INICIO</h1>
+    <nav>
+      <ul>
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#acerca">Acerca de</a></li>
+        <li><a href="#servicios">Servicios</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section id="inicio">
+      <h2>Bienvenido a mi página web</h2>
+      <p>¡Gracias por visitar mi sitio web! Aquí encontrarás información sobre mis servicios y cómo contactarme. ¡Espero que te guste!</p>
+    </section>
+    <section id="acerca">
+      <h2>Acerca de mí</h2>
+      <p>Soy Jose Miguel Velasco Gonzalez, un desarrollador web apasionado con experiencia en HTML, CSS y JavaScript. Me encanta crear sitios web interactivos y funcionales que ofrezcan una excelente experiencia al usuario.</p>
+    </section>
+    <section id="servicios">
+        <h2>Servicios</h2>
+      <ul>
+        <li>Diseno y desarrollo web</li>
+        <li>Optimizacion de sitios web</li>
+        <li>Mantenimiento de sitios web</li>
+        <li>Desarrollo de aplicaciones web</li>
+      </ul>
+    </section>
+    <section id="contacto">
+      <h2>Contacto</h2>
+      <p>Si estas interesado en alguno de mis servicios o si tienes alguna pregunta, por favor ponte en contacto conmigo a traves del siguiente formulario o por correo electronico.</p>
+      <form>
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email">
+        <label for="mensaje">Mensaje:</label>
+        <textarea id="mensaje" name="mensaje"></textarea>
+        <input type="submit" value="Enviar">
+      </form>
+    </section>
+  </main>
+  <footer>
+    <p>Desarrollado por: Jose Miguel Velasco Gonzalez &copy; 2023. Todos los derechos reservados.</p>
+  </footer>
+  <script src="scripts.js"></script>
+</body>
+</html><!-- Estilos CSS y meta etiquetas aquí -->
+</head>
+<body>
+    <style>
+       
+          font-size: 18px; /* Tamaño de letra para el pie de página */
+          color: #ffffff; /* Color de letra claro para el pie de página */
+          margin: 0;
+          padding: 0;
+        }
+      </style>  <!-- Contenido de la página principal aquí -->
+</body>
+</html>
